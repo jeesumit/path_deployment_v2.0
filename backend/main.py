@@ -9,8 +9,8 @@ from run import Run_process
 app = Flask(__name__)
 gcp=[]
 
-data_read = GNSSData("/home/robo/dev/fil_/path_deployment/src/canbus/serial_posix_v2/inc/gnr.buf")
-
+#data_read = GNSSData("/home/robo/dev/fil_/path_deployment/src/canbus/serial_posix_v2/inc/gnr.buf")
+data_read = GNSSData("/home/ubuntu/serial_posix_v2.0/inc/gnr.buf")
 #proc = Run_process("../src/","gnss")
 
 def event_stream():
